@@ -1,0 +1,71 @@
+bees up -s 1 -g default --key=MyFirstKeyPair --i=ami-ff17fb96 --zone=us-east-1d --login=newsapps
+bees report
+ssh -i ~/.ssh/MyFirstKeyPair.pem newsapps@ec2-54-84-57-104.compute-1.amazonaws.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fab -f bees.py up:1,default,us-east-1d,ami-ff17fb96,t1.micro,AWS_Admin,MyFirstKeyPair,subnet-0ca46926
+fab -f bees.py report
+fab -f bees.py attack:http://www.dublintrading.com/,1,1
+
+ssh -i ~/.ssh/MyFirstKeyPair.pem AWS_Admin@52.91.27.69
+
+
+def up(count, group, zone, image_id, instance_type, username, key_name, subnet, bid = None):
+
+
+
+ bees up -s 4  -k dragkh   -i ami-instance-per.choice -z eu-west-1b -g allssh  -l ec2-user
+Connecting to the hive.
+
+
+bees attack  -n 10000 -c 100 -u http://your.test.public.server/
+
+
+bees up -s 1 -g default -k MyFirstKeyPair
+bees attack -n 1 -c 1 -u http://www.dublintrading.com/
+bees down
+
+count, group, zone, image_id, username, key_name
+
+fab -f bees.py up:1,default,us-east-1d,ami-ff17fb96,AWS_Admin,MyFirstKeyPair
+
+
+
+ami-08111162
+launch-wizard-1
+
+bees up -s 1 -g default --key=MyFirstKeyPair --i=ami-ff17fb96 --zone=us-east-1d --login=newsapps
+
+
+sudo apt-get install clusterssh
+cssh --username=AWS_Admin -a 'sudo apt-get install apache2-utils -y'  52.87.223.172
+
+
+52.87.223.172
+
